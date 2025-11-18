@@ -217,20 +217,36 @@ footer {
     padding: 80px 20px;
   }
 }
-.linkedin-btn {
-  background: #0077b5;
-  padding: 8px 14px;
-  color: #fff !important;
-  border-radius: 6px;
+.linkedin-btn,
+.github-btn {
   display: inline-flex;
-  gap: 6px;
   align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 6px;
   font-weight: 600;
+  text-decoration: none;
   transition: 0.3s ease;
+  color: #fff !important;
 }
 
+/* LinkedIn color */
+.linkedin-btn {
+  background: #0077b5;
+}
 .linkedin-btn:hover {
   background: #005f8d;
   transform: translateY(-3px);
 }
+
+/* GitHub color */
+.github-btn {
+  background: #333333;
+}
+.github-btn:hover {
+  background: #000000;
+  transform: translateY(-3px);
+}
+
+
 
